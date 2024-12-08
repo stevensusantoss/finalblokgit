@@ -1,0 +1,276 @@
+ERROR - 2024-10-03 01:11:57 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-10-03 01:11:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Models\Msskece.php(9): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(100): App\Models\Msskece->tampil('barang')
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->sskece()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#9 {main}
+ERROR - 2024-10-03 01:12:01 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-10-03 01:12:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Models\Msskece.php(9): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(100): App\Models\Msskece->tampil('barang')
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->sskece()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#9 {main}
+CRITICAL - 2024-10-03 01:22:48 --> Invalid file: tblbarangmasuk.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tblbarangmasuk....')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('tblbarangmasuk....', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(77): view('tblbarangmasuk....')
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tblbarangmasuk()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-03 01:24:16 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tbl_barang...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tbl_barang...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-03 02:06:26 --> Invalid file: edit_brg_masuk.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_brg_masuk....')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('edit_brg_masuk', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(176): view('edit_brg_masuk', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1('10089')
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-03 02:07:30 --> Invalid file: editbrgmasuk.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editbrgmasuk.ph...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('editbrgmasuk', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(176): view('editbrgmasuk', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1('10089')
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-03 02:07:31 --> Invalid file: editbrgmasuk.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editbrgmasuk.ph...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('editbrgmasuk', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(176): view('editbrgmasuk', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1('10089')
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-03 02:07:32 --> Invalid file: editbrgmasuk.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editbrgmasuk.ph...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('editbrgmasuk', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(176): view('editbrgmasuk', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1('10089')
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-03 02:09:28 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-03 02:12:56 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-03 02:13:35 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-03 02:13:38 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-03 02:13:40 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-03 02:14:24 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-03 02:15:03 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-03 02:17:41 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-03 02:19:33 --> Invalid argument supplied for foreach()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Views\barangmasuk.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\lenovo...', 17, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('barangmasuk.php', Array, true)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(41): view('barangmasuk.php')
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2024-10-03 02:20:21 --> Invalid argument supplied for foreach()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Views\barangmasuk.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\lenovo...', 17, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('barangmasuk.php', Array, true)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(41): view('barangmasuk.php')
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2024-10-03 02:20:21 --> Invalid argument supplied for foreach()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Views\barangmasuk.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\lenovo...', 17, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('barangmasuk.php', Array, true)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(41): view('barangmasuk.php')
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2024-10-03 02:20:22 --> Invalid argument supplied for foreach()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Views\barangmasuk.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\lenovo...', 17, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('barangmasuk.php', Array, true)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(41): view('barangmasuk.php')
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2024-10-03 02:20:22 --> Invalid argument supplied for foreach()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Views\barangmasuk.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\lenovo...', 17, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('barangmasuk.php', Array, true)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(41): view('barangmasuk.php')
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2024-10-03 02:23:09 --> Invalid argument supplied for foreach()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Views\barangmasuk.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\lenovo...', 17, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('barangmasuk.php', Array, true)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(41): view('barangmasuk.php')
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2024-10-03 02:24:02 --> Invalid argument supplied for foreach()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Views\barangmasuk.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\lenovo...', 17, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('barangmasuk.php', Array, true)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(41): view('barangmasuk.php')
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2024-10-03 02:24:24 --> Invalid argument supplied for foreach()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Views\barangmasuk.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\lenovo...', 17, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('barangmasuk.php', Array, true)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(41): view('barangmasuk.php')
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2024-10-03 02:24:25 --> Invalid argument supplied for foreach()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Views\barangmasuk.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\lenovo...', 17, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('barangmasuk.php', Array, true)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(41): view('barangmasuk.php')
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2024-10-03 02:57:47 --> Call to undefined method App\Models\Msskece::simpan_barang1
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(211): CodeIgniter\Model->__call('simpan_barang1', Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang1()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-03 02:58:52 --> Call to undefined method App\Models\Msskece::simpan_barang1
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(211): CodeIgniter\Model->__call('simpan_barang1', Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang1()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-03 02:59:39 --> Call to undefined method App\Models\Msskece::simpan_barang1
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(211): CodeIgniter\Model->__call('simpan_barang1', Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang1()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}

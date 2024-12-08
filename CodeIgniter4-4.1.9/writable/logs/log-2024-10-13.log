@@ -1,0 +1,137 @@
+ERROR - 2024-10-13 20:19:12 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-10-13 20:19:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Models\Msskece.php(24): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(75): App\Models\Msskece->getWhere('user', Array)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#9 {main}
+CRITICAL - 2024-10-13 22:58:43 --> syntax error, unexpected 'yv' (T_STRING), expecting ';' or '{'
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/user1')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/user1')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-13 22:58:56 --> syntax error, unexpected 'yv' (T_STRING), expecting ';' or '{'
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/user1')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/user1')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-13 22:58:57 --> syntax error, unexpected 'yv' (T_STRING), expecting ';' or '{'
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/user1')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/user1')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-13 22:58:58 --> syntax error, unexpected 'yv' (T_STRING), expecting ';' or '{'
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tbl_user')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tbl_user')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-13 22:58:59 --> syntax error, unexpected 'yv' (T_STRING), expecting ';' or '{'
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/karyawan2')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/karyawan2')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-13 22:59:07 --> syntax error, unexpected 'yv' (T_STRING), expecting ';' or '{'
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tbl_user')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tbl_user')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-13 22:59:09 --> syntax error, unexpected 'yv' (T_STRING), expecting ';' or '{'
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tbl_karyaw...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tbl_karyaw...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-13 22:59:32 --> syntax error, unexpected 'yv' (T_STRING), expecting ';' or '{'
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tbl_karyaw...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tbl_karyaw...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-13 22:59:32 --> syntax error, unexpected 'yv' (T_STRING), expecting ';' or '{'
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tbl_karyaw...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tbl_karyaw...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-13 22:59:33 --> syntax error, unexpected 'yv' (T_STRING), expecting ';' or '{'
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tbl_karyaw...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tbl_karyaw...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+ERROR - 2024-10-13 23:13:05 --> Unknown column 'tanggal_lahir' in 'field list'
+ERROR - 2024-10-13 23:13:27 --> Unknown column 'tanggal_lahir' in 'field list'
+CRITICAL - 2024-10-13 23:49:19 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/karyawan2')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/karyawan2')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-13 23:50:00 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/karyawan2')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/karyawan2')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-13 23:51:17 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/karyawan2')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/karyawan2')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-13 23:52:57 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/karyawan2')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/karyawan2')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-13 23:59:33 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/karyawan2')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/karyawan2')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}

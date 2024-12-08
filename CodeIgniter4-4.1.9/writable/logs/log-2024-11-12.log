@@ -1,0 +1,425 @@
+ERROR - 2024-11-12 18:48:05 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 18:48:05 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(133): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 19:13:44 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 19:13:44 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 19:14:53 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 19:14:53 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 19:19:36 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 19:19:36 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 19:36:20 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 19:36:20 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 19:36:38 --> Column 'nama_jabatan' cannot be null
+ERROR - 2024-11-12 19:36:53 --> Column 'nama_jabatan' cannot be null
+ERROR - 2024-11-12 19:40:55 --> Column 'nama_jabatan' cannot be null
+ERROR - 2024-11-12 19:44:39 --> Column 'nama_jabatan' cannot be null
+ERROR - 2024-11-12 19:46:18 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 19:46:18 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 19:46:26 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 19:46:26 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 19:47:43 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 19:47:43 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 19:48:36 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 19:48:36 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 19:48:37 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 19:48:37 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 19:48:40 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 19:48:40 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 19:54:05 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 19:54:05 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 19:54:23 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 19:54:23 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 19:56:48 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 19:56:48 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 19:58:43 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 19:58:43 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 19:58:48 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 19:58:48 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 20:00:26 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 20:00:26 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 20:00:27 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 20:00:27 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 20:00:41 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 20:00:41 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 20:02:19 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 20:02:19 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 20:03:32 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 20:03:32 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 20:04:46 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 20:04:46 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 20:04:49 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 20:04:49 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 20:06:58 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 20:06:58 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 20:07:01 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 20:07:01 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 20:09:22 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 20:09:22 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 20:09:27 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 20:09:27 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 20:10:08 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 20:10:08 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 20:13:00 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 20:13:00 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 20:20:34 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 20:20:34 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 20:20:36 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 20:20:36 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 22:19:59 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 22:19:59 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 22:20:59 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 22:20:59 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 22:22:05 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 22:22:05 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 22:22:10 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 22:22:10 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 22:22:22 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 22:22:22 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 22:22:23 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 22:22:23 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 22:22:27 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 22:22:27 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 22:22:55 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 22:22:55 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 22:23:14 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 22:23:14 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(134): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 22:25:45 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 22:25:45 --> Call to a member function getRow() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(147): App\Models\Msskece->getWhere('tabel_user_jaba...', Array)
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->edit_user('1')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 22:25:59 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 22:25:59 --> Call to a member function getRow() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(147): App\Models\Msskece->getWhere('tabel_user_jaba...', Array)
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->edit_user('1')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 22:27:08 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 22:27:08 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(197): App\Models\Msskece->tampil('tabel_user_jaba...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->user1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 22:28:47 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+ERROR - 2024-11-12 22:29:27 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+ERROR - 2024-11-12 22:32:12 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+ERROR - 2024-11-12 22:33:24 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+ERROR - 2024-11-12 22:37:48 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+ERROR - 2024-11-12 22:38:01 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+ERROR - 2024-11-12 22:39:43 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+ERROR - 2024-11-12 22:39:50 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+ERROR - 2024-11-12 22:40:01 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 22:47:54 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/simpan_use...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/simpan_use...')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-11-12 22:47:56 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/edit_user/...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/edit_user/...')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-12 22:53:00 --> Table 'uang.kas.tabel_user_jabatan' doesn't exist
+CRITICAL - 2024-11-12 23:12:17 --> syntax error, unexpected '$Joyce' (T_VARIABLE)
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tabel_user')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tabel_user')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}

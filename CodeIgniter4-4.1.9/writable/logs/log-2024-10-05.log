@@ -1,0 +1,696 @@
+ERROR - 2024-10-05 02:23:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-10-05 02:23:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Models\Msskece.php(9): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(30): App\Models\Msskece->tampil('barang')
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->sskece()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#9 {main}
+ERROR - 2024-10-05 02:23:59 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-10-05 02:23:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Models\Msskece.php(9): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(30): App\Models\Msskece->tampil('barang')
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->sskece()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#9 {main}
+CRITICAL - 2024-10-05 02:26:33 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 201, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang1()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 02:33:48 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 201, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang1()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 02:38:13 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 201, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang1()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 02:40:44 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 201, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang1()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 02:44:28 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang1()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 02:44:48 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang1()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 02:49:20 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang1()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 02:51:10 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang1()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 02:52:44 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang1()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 03:01:42 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 03:04:21 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 03:04:23 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 03:25:38 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 03:28:59 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 03:29:59 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 03:42:37 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 03:42:40 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 03:44:44 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 03:47:25 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 03:51:13 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 03:51:16 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 03:56:03 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 03:58:19 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 04:02:31 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 04:02:40 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 04:04:33 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php on line 211
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(211): view('inputbarangmasu...', NULL)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->brg2()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 04:04:37 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php on line 211
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(211): view('inputbarangmasu...', NULL)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->brg2()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 04:04:42 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php on line 211
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(211): view('inputbarangmasu...', NULL)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->brg2()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 04:04:58 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 04:08:23 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 04:19:23 --> Use of undefined constant             - assumed '           ' (this will throw an Error in a future version of PHP)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\lenovo...', 200, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->input_barang_masuk()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 04:31:09 --> Invalid argument supplied for foreach()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Views\barangkeluar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\lenovo...', 18, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('barangkeluar', Array, true)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(220): view('barangkeluar', Array)
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_barang_keluar()
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+ERROR - 2024-10-05 05:28:11 --> Unknown column 'id_barang' in 'field list'
+ERROR - 2024-10-05 09:09:25 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-10-05 09:09:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Models\Msskece.php(9): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(30): App\Models\Msskece->tampil('barang')
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->sskece()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#9 {main}
+ERROR - 2024-10-05 09:09:29 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-10-05 09:09:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Models\Msskece.php(9): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(30): App\Models\Msskece->tampil('barang')
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->sskece()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#9 {main}
+ERROR - 2024-10-05 09:22:03 --> Table 'gudang.tampil_user' doesn't exist
+CRITICAL - 2024-10-05 09:22:03 --> Call to a member function getResult() on bool
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(280): App\Models\Msskece->tampil('tampil_user')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+ERROR - 2024-10-05 09:30:36 --> Table 'gudang.tampil_user' doesn't exist
+CRITICAL - 2024-10-05 09:30:36 --> Call to a member function getResult() on bool
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(280): App\Models\Msskece->tampil('tampil_user')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+ERROR - 2024-10-05 09:30:37 --> Table 'gudang.tampil_user' doesn't exist
+CRITICAL - 2024-10-05 09:30:37 --> Call to a member function getResult() on bool
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(280): App\Models\Msskece->tampil('tampil_user')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+ERROR - 2024-10-05 09:30:37 --> Table 'gudang.tampil_user' doesn't exist
+CRITICAL - 2024-10-05 09:30:37 --> Call to a member function getResult() on bool
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(280): App\Models\Msskece->tampil('tampil_user')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+ERROR - 2024-10-05 09:30:38 --> Table 'gudang.tampil_user' doesn't exist
+CRITICAL - 2024-10-05 09:30:38 --> Call to a member function getResult() on bool
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(280): App\Models\Msskece->tampil('tampil_user')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+ERROR - 2024-10-05 09:30:38 --> Table 'gudang.tampil_user' doesn't exist
+CRITICAL - 2024-10-05 09:30:38 --> Call to a member function getResult() on bool
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(280): App\Models\Msskece->tampil('tampil_user')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+ERROR - 2024-10-05 09:30:38 --> Table 'gudang.tampil_user' doesn't exist
+CRITICAL - 2024-10-05 09:30:38 --> Call to a member function getResult() on bool
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(280): App\Models\Msskece->tampil('tampil_user')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+ERROR - 2024-10-05 09:30:38 --> Table 'gudang.tampil_user' doesn't exist
+CRITICAL - 2024-10-05 09:30:38 --> Call to a member function getResult() on bool
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(280): App\Models\Msskece->tampil('tampil_user')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 09:31:03 --> You must set the database table to be used with your query.
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(280): CodeIgniter\Model->__call('tampil', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-05 09:31:04 --> You must set the database table to be used with your query.
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(280): CodeIgniter\Model->__call('tampil', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-05 09:31:17 --> You must set the database table to be used with your query.
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(280): CodeIgniter\Model->__call('tampil', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+ERROR - 2024-10-05 09:31:24 --> Table 'gudang.tampil_user' doesn't exist
+CRITICAL - 2024-10-05 09:31:24 --> Call to a member function getResult() on bool
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(280): App\Models\Msskece->tampil('tampil_user')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+ERROR - 2024-10-05 09:38:16 --> Table 'gudang.tampil_user' doesn't exist
+CRITICAL - 2024-10-05 09:38:16 --> Call to a member function getResult() on bool
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(280): App\Models\Msskece->tampil('tampil_user')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-05 09:45:44 --> Invalid argument supplied for foreach()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Views\user.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\lenovo...', 18, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(283): view('user', Array)
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_user()
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2024-10-05 09:54:36 --> Cannot redeclare App\Controllers\Home::input_user()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-05 09:56:21 --> Cannot redeclare App\Controllers\Home::input_user()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-05 09:57:13 --> Cannot redeclare App\Controllers\Home::input_user()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-05 09:57:13 --> Cannot redeclare App\Controllers\Home::input_user()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-05 09:57:14 --> Cannot redeclare App\Controllers\Home::input_user()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-05 09:59:02 --> Cannot redeclare App\Controllers\Home::input_user()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-05 09:59:03 --> Cannot redeclare App\Controllers\Home::input_user()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-05 10:01:16 --> Invalid file: input_user.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input_user.php')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('input_user.php', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(337): view('input_user.php', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->user1()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-05 10:01:26 --> Invalid file: input_user.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input_user.php')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('input_user.php', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(337): view('input_user.php', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->user1()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-05 10:02:46 --> Invalid file: input_user.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input_user.php')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('input_user.php', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(337): view('input_user.php', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->user1()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-05 10:04:44 --> Invalid file: input_user.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input_user.php')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('input_user.php', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(337): view('input_user.php', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->user1()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-05 10:04:48 --> Invalid file: input_user.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input_user.php')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('input_user.php', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(337): view('input_user.php', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->user1()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-05 10:05:17 --> Invalid file: edituser1.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edituser1.php')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('edituser1', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(293): view('edituser1', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->edituser('11455')
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-05 10:06:23 --> Invalid file: input_user.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input_user.php')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('input_user.php', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(337): view('input_user.php', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->user1()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-05 10:08:21 --> Invalid file: input_user.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input_user.php')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('input_user', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(337): view('input_user', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->user1()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-05 12:18:51 --> Invalid argument supplied for foreach()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Views\barangkeluar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\lenovo...', 18, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('barangkeluar', Array, true)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(346): view('barangkeluar', Array)
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_barang_rusak()
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2024-10-05 12:38:02 --> Invalid file: input_barang_rusak.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input_barang_ru...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('input_barang_ru...', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(400): view('input_barang_ru...', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->rusak1()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-05 12:38:23 --> Invalid file: input_barang_rusak.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input_barang_ru...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('input_barang_ru...', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(400): view('input_barang_ru...', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->rusak1()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-05 12:38:25 --> Invalid file: input_barang_rusak.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input_barang_ru...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('input_barang_ru...', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(400): view('input_barang_ru...', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->rusak1()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-05 12:38:39 --> Invalid file: input_barang_rusak.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input_barang_ru...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('input_barang_ru...', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(400): view('input_barang_ru...', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->rusak1()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-05 12:38:41 --> Invalid file: input_barang_rusak.php
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input_barang_ru...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('input_barang_ru...', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(400): view('input_barang_ru...', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->rusak1()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-05 12:39:38 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-05 12:41:25 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-05 12:41:44 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-05 12:43:04 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-05 12:43:05 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-05 12:43:05 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-05 12:43:05 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-05 12:43:06 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-05 12:43:06 --> Too few arguments to function App\Controllers\Home::editbarang1(), 0 passed in C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->editbarang1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+ERROR - 2024-10-05 12:43:26 --> Unknown column 'id_rusak' in 'field list'
+ERROR - 2024-10-05 12:43:40 --> Unknown column 'id_rusak' in 'field list'
+ERROR - 2024-10-05 12:45:24 --> Unknown column 'id_rusak' in 'field list'
+ERROR - 2024-10-05 12:45:39 --> Unknown column 'id_rusak' in 'field list'
+ERROR - 2024-10-05 12:52:37 --> Unknown column 'id_rusak' in 'field list'
+CRITICAL - 2024-10-05 13:12:59 --> Invalid argument supplied for foreach()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Views\barangrusak.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\lenovo...', 18, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('barangrusak', Array, true)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(409): view('barangrusak', Array)
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tbl_karyawan()
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}

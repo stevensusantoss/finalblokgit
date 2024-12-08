@@ -1,0 +1,322 @@
+CRITICAL - 2024-11-17 19:19:24 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ss\\Dow...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#9 {main}
+CRITICAL - 2024-11-17 19:19:29 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/sskece')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/sskece')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-11-17 19:19:33 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-11-17 19:19:39 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-11-17 19:19:52 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-11-17 19:50:38 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-11-17 20:22:59 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-11-17 20:23:03 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-11-17 20:23:23 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-11-17 20:23:35 --> Cannot redeclare App\Controllers\Home::simpan_pemasukan()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-11-17 20:23:47 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-11-17 20:24:44 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-11-17 20:24:50 --> Cannot redeclare App\Controllers\Home::simpan_pemasukan()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-11-17 20:27:10 --> Table 'uang.kas.tabel_pengluaran' doesn't exist
+CRITICAL - 2024-11-17 20:27:10 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengluara...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 20:27:22 --> Table 'uang.kas.tabel_pengluaran' doesn't exist
+CRITICAL - 2024-11-17 20:27:22 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengluara...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 20:27:29 --> Table 'uang.kas.tabel_pengluaran' doesn't exist
+CRITICAL - 2024-11-17 20:27:29 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengluara...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 20:30:15 --> Table 'uang.kas.tabel_pengluaran' doesn't exist
+CRITICAL - 2024-11-17 20:30:15 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengluara...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 20:30:15 --> Table 'uang.kas.tabel_pengluaran' doesn't exist
+CRITICAL - 2024-11-17 20:30:15 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengluara...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 20:35:54 --> Table 'uang.kas.tabel_pengluaran' doesn't exist
+CRITICAL - 2024-11-17 20:35:54 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengluara...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 20:35:57 --> Table 'uang.kas.tabel_pengluaran' doesn't exist
+CRITICAL - 2024-11-17 20:35:57 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengluara...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 20:37:23 --> Table 'uang.kas.tabel_pengluaran' doesn't exist
+CRITICAL - 2024-11-17 20:37:23 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengluara...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 20:37:26 --> Table 'uang.kas.tabel_pengluaran' doesn't exist
+CRITICAL - 2024-11-17 20:37:26 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengluara...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 20:41:47 --> Unknown column 'tabel_pengeluaran.id_siswa' in 'on clause'
+CRITICAL - 2024-11-17 20:41:47 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 20:41:49 --> Unknown column 'tabel_pengeluaran.id_siswa' in 'on clause'
+CRITICAL - 2024-11-17 20:41:49 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 20:41:53 --> Unknown column 'tabel_pengeluaran.id_siswa' in 'on clause'
+CRITICAL - 2024-11-17 20:41:53 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 20:49:16 --> Unknown column 'tabel_pengeluaran.id_siswa' in 'on clause'
+CRITICAL - 2024-11-17 20:49:16 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 20:52:05 --> Unknown column 'tabel_pengeluaran.id_siswa' in 'on clause'
+CRITICAL - 2024-11-17 20:52:05 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 20:52:07 --> Unknown column 'tabel_pengeluaran.id_siswa' in 'on clause'
+CRITICAL - 2024-11-17 20:52:07 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 20:56:36 --> Unknown column 'tabel_pengeluaran.id_siswa' in 'on clause'
+CRITICAL - 2024-11-17 20:56:36 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'siswa', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 21:01:56 --> Table 'uang.kas.user' doesn't exist
+CRITICAL - 2024-11-17 21:01:56 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'user', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 21:01:58 --> Table 'uang.kas.user' doesn't exist
+CRITICAL - 2024-11-17 21:01:58 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'user', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 21:02:11 --> Table 'uang.kas.user' doesn't exist
+CRITICAL - 2024-11-17 21:02:11 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'user', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 21:02:13 --> Table 'uang.kas.user' doesn't exist
+CRITICAL - 2024-11-17 21:02:13 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'user', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 21:07:01 --> Table 'uang.kas.user' doesn't exist
+CRITICAL - 2024-11-17 21:07:01 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'user', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 21:09:20 --> Table 'uang.kas.user' doesn't exist
+CRITICAL - 2024-11-17 21:09:20 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'user', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 21:09:21 --> Table 'uang.kas.user' doesn't exist
+CRITICAL - 2024-11-17 21:09:21 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'user', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 21:09:21 --> Table 'uang.kas.user' doesn't exist
+CRITICAL - 2024-11-17 21:09:21 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'user', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+ERROR - 2024-11-17 21:09:21 --> Table 'uang.kas.user' doesn't exist
+CRITICAL - 2024-11-17 21:09:21 --> Call to a member function getResult() on bool
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(363): App\Models\Msskece->join('tabel_pengeluar...', 'user', 'tabel_pengeluar...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}

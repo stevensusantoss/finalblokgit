@@ -1,0 +1,12 @@
+CRITICAL - 2024-11-07 02:47:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\ss\\Dow...')
+#4 {main}
+CRITICAL - 2024-11-07 04:57:36 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\ss\\Dow...')
+#4 {main}

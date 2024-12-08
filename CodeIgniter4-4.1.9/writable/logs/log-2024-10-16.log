@@ -1,0 +1,164 @@
+CRITICAL - 2024-10-16 06:34:36 --> Cannot redeclare App\Controllers\Home::laporanbm()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-16 06:34:36 --> Cannot redeclare App\Controllers\Home::laporanbm()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-16 06:36:31 --> Call to a member function join() on null
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabelbm()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+ERROR - 2024-10-16 06:37:13 --> Unknown column 'barang_masuk.id_barang' in 'on clause'
+CRITICAL - 2024-10-16 06:37:13 --> Call to a member function getResult() on bool
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(603): App\Models\Msskece->join('barangmasuk', 'barang', 'barang_masuk.id...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabelbm()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+ERROR - 2024-10-16 06:37:18 --> Unknown column 'barang_masuk.id_barang' in 'on clause'
+CRITICAL - 2024-10-16 06:37:18 --> Call to a member function getResult() on bool
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(603): App\Models\Msskece->join('barangmasuk', 'barang', 'barang_masuk.id...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabelbm()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-16 06:37:45 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\lenovo...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mssk...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mssk...')
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(602): spl_autoload_call('App\\Models\\Mssk...')
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabelbm()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#9 {main}
+ERROR - 2024-10-16 06:38:03 --> Unknown column 'barang_masuk.id_barang' in 'on clause'
+CRITICAL - 2024-10-16 06:38:03 --> Call to a member function getResult() on bool
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(603): App\Models\Msskece->join('barangmasuk', 'barang', 'barang_masuk.id...')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabelbm()
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2024-10-16 06:48:25 --> Invalid argument supplied for foreach()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Views\tabelbm.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\lenovo...', 33, Array)
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('tabelbm', Array, true)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(605): view('tabelbm', Array)
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabelbm1()
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2024-10-16 06:57:30 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/tabelbm1')
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/tabelbm1')
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+ERROR - 2024-10-16 21:37:45 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-10-16 21:37:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Models\Msskece.php(31): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(75): App\Models\Msskece->getWhere('user', Array)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#9 {main}
+ERROR - 2024-10-16 21:37:50 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-10-16 21:37:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Models\Msskece.php(31): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(75): App\Models\Msskece->getWhere('user', Array)
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#9 {main}
+CRITICAL - 2024-10-16 21:39:00 --> Call to undefined function App\Controllers\view ()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->laporanbm1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-16 21:40:02 --> Call to undefined function App\Controllers\view ()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->laporanbm1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-16 21:40:04 --> Call to undefined function App\Controllers\view ()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->laporanbm1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-16 21:40:06 --> Call to undefined function App\Controllers\view ()
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->laporanbm1()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2024-10-16 22:19:52 --> syntax error, unexpected 'charset' (T_STRING), expecting ';' or ','
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('tabelbm', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(605): view('tabelbm', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabelbm1()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2024-10-16 22:20:02 --> syntax error, unexpected 'charset' (T_STRING), expecting ';' or ','
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('tabelbm', Array, true)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(605): view('tabelbm', Array)
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabelbm1()
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+ERROR - 2024-10-16 23:27:04 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-10-16 23:27:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Models\Msskece.php(9): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\app\Controllers\Home.php(91): App\Models\Msskece->tampil('barang')
+#4 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->sskece()
+#5 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#9 {main}

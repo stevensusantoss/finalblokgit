@@ -1,0 +1,15 @@
+ERROR - 2024-11-27 18:49:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-11-27 18:49:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Models\Msskece.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\app\Controllers\Home.php(396): App\Models\Msskece->join('tabel_pengeluar...', 'tabel_user', 'tabel_pengeluar...')
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pengeluaran1()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#9 {main}

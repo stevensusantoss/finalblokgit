@@ -1,0 +1,132 @@
+CRITICAL - 2024-12-02 18:45:51 --> Too few arguments to function App\Controllers\Home::edituangkas(), 0 passed in C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->edituangkas()
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}
+CRITICAL - 2024-12-02 18:45:56 --> Too few arguments to function App\Controllers\Home::edituangkas(), 0 passed in C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->edituangkas()
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}
+CRITICAL - 2024-12-02 18:46:00 --> Too few arguments to function App\Controllers\Home::edituangkas(), 0 passed in C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->edituangkas()
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}
+CRITICAL - 2024-12-02 18:46:46 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tabel_uang...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tabel_uang...')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-12-02 18:46:48 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tabel_uang...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tabel_uang...')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-12-02 18:46:49 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/bulan')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/bulan')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-12-02 18:49:27 --> Too few arguments to function App\Controllers\Home::edituangkas(), 0 passed in C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->edituangkas()
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}
+CRITICAL - 2024-12-02 18:50:01 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/edituangka...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/edituangka...')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-12-02 18:50:02 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/edituangka...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/edituangka...')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-12-02 18:50:16 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/edituangka...')
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/edituangka...')
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#6 {main}
+CRITICAL - 2024-12-02 18:50:31 --> Too few arguments to function App\Controllers\Home::edituangkas(), 0 passed in C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->edituangkas()
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}
+CRITICAL - 2024-12-02 18:50:32 --> Too few arguments to function App\Controllers\Home::edituangkas(), 0 passed in C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->edituangkas()
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}
+CRITICAL - 2024-12-02 18:55:42 --> Too few arguments to function App\Controllers\Home::edituangkas(), 0 passed in C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->edituangkas()
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}
+CRITICAL - 2024-12-02 18:57:13 --> Too few arguments to function App\Controllers\Home::edituangkas(), 0 passed in C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->edituangkas()
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}
+CRITICAL - 2024-12-02 18:58:30 --> Too few arguments to function App\Controllers\Home::edituangkas(), 0 passed in C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->edituangkas()
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}
+CRITICAL - 2024-12-02 18:58:31 --> Too few arguments to function App\Controllers\Home::edituangkas(), 0 passed in C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->edituangkas()
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}
+CRITICAL - 2024-12-02 18:58:34 --> Too few arguments to function App\Controllers\Home::edituangkas(), 0 passed in C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->edituangkas()
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}
+CRITICAL - 2024-12-02 18:58:51 --> Too few arguments to function App\Controllers\Home::edituangkas(), 0 passed in C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->edituangkas()
+#1 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\uang_kas\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}

@@ -1,0 +1,28 @@
+CRITICAL - 2024-10-29 00:01:35 --> Class 'TCPDF' not found
+#0 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->pdflaporanbrgmsk()
+#1 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}
+CRITICAL - 2024-10-29 00:01:49 --> Class 'TCPDF' not found
+#0 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->pdflaporanbrgmsk()
+#1 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}
+CRITICAL - 2024-10-29 01:58:51 --> Class 'TCPDF' not found
+#0 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->pdflaporanbrgmsk()
+#1 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}
+CRITICAL - 2024-10-29 02:05:46 --> Class 'TCPDF' not found
+#0 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->pdflaporanbrgmsk()
+#1 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ss\Downloads\tbl baru\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ss\\Dow...')
+#5 {main}
